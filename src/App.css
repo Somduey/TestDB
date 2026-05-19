@@ -1,0 +1,14 @@
+#input:focus {
+  border: none;
+}
+
+.no-scrollBar::-webkit-scrollbar {
+  display: none;
+}
+
+@media (max-width: 500px) {
+  #list {
+    width: 350px;
+    height: 400px;
+  }
+}
