@@ -62,6 +62,7 @@ app.delete("/employee/:id", (req, res) => {
   );
 });
 
-app.listen(8080, () => {
-  console.log("Backend starting at 8080.");
+const PORT = process.env.PORT || 8080;
+app.listen(PORT, () => {
+  console.log(`Backend starting at ${PORT}.`);
 });
