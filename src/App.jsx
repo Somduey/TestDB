@@ -83,6 +83,7 @@ function App() {
       </div>
       {user.length > 0 && (
         <ul
+          id="list"
           className="w-[700px] h-[400px] overflow-y-scroll no-scrollBar"
         >
           {user.map((item) => (
